@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Destination"
+  DTS:DTSID="{4FC90262-8B8C-4B7F-8CA5-E3E18114D79A}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Bingo;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Bingo_DWH-{4FC90262-8B8C-4B7F-8CA5-E3E18114D79A}LocalHost.Bingo;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
